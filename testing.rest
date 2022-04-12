@@ -1,0 +1,19 @@
+{/* VSCode Rest Client Extention*/}
+
+###
+GET http://localhost:3000 HTTP/1.1
+
+###
+GET http://localhost:3000/comments HTTP/1.1
+
+###
+GET http://localhost:3000/comments?email=Mallory_Kunze@marie.org&postId=2 HTTP/1.1
+
+###
+GET http://localhost:3000/posts HTTP/1.1
+
+###
+GET http://localhost:3000/posts?id=1 HTTP/1.1
+
+###
+GET http://localhost:3000/top-posts HTTP/1.1
