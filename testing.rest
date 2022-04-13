@@ -17,3 +17,20 @@ GET http://localhost:3000/posts?id=1 HTTP/1.1
 
 ###
 GET http://localhost:3000/top-posts HTTP/1.1
+
+###
+GET http://localhost:3000/top-posts/3 HTTP/1.1
+
+###
+POST http://localhost:3000/filter-comment/ HTTP/1.1
+content-type: application/json
+
+{
+    "postId": 1,
+    "id": 1,
+    "name": "%id labore%",
+    "email": "Eliseo@gardner.biz",
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+}
+
+###
